@@ -1,0 +1,123 @@
+html{
+	font-family: arial, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+header {
+display: flex;
+justify-content: flex-end;
+}
+#navigationbar{
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-content: flex-end;
+	padding: 5px 15px 0px 0px;
+}
+#carrelogo {
+	height: 30px;
+	width: 30px;
+}
+#Connexion {
+	color: #fff;
+	font-weight: bold;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin-top: -10px;
+}
+#center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 700px;
+}
+#bouton{
+	align-self: center;
+	height: 50px;
+	line-height: 50px;
+}
+#googlelogo {
+    height: 92px;
+    width: 272px;
+    display: flex;
+    align-self: center;
+}
+#searchbar {
+		display:flex;
+		align-self: center;
+
+
+		box-shadow: 2px 1px 3px 2px grey;
+
+}
+.footer{
+  display:flex;
+
+
+}
+
+ul{
+	list-style-type: none;
+	display:flex;
+}
+
+#gmail{
+	padding: 20px 15px;
+}
+
+#images{
+	padding: 20px 15px;
+}
+#carrelogo{
+	padding: 10px 15px;
+
+}
+#connexion{
+	padding: 20px 15px;
+}
+body{
+	height: 900px;
+}
+.footer{
+	margin-top: 70px;
+	maximum-width:100%;
+	border: border: 2px solid red;
+
+}
+#ad{
+	padding: 20px 15px;
+}
+#enterprises{
+	padding: 20px 15px;
+}
+#about{
+	padding: 20px 15px;
+}
+#consumers_info{
+	padding: 20px 15px;
+}
+#confidentiality{
+	padding: 20px 15px;
+}
+#conditions{
+	padding: 20px 15px;
+}
+#paramaters{
+	padding: 20px 15px;
+}
+#alignement_footer{
+	display: flex;
+
+}
+#left_bar{
+	width: 50%;
+	padding-top: 15px;
+}
+#right_bar{
+	width: 50%;
+	justfiy-content: flex-end;
+	padding-top: 15px;
+}
