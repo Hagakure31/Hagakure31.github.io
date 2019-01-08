@@ -97,8 +97,7 @@ padding: 0 16px;
 }
 .footer{
   display:flex;
-
-
+  background: #F2F2F2; 
 }
 
 ul{
@@ -127,8 +126,8 @@ body{
 	margin-top: 70px;
 	maximum-width:100%;
 	border: border: 2px solid red;
-
 }
+
 #ad{
 	padding: 20px 15px;
 }
@@ -147,7 +146,7 @@ body{
 #conditions{
 	padding: 20px 15px;
 }
-#paramaters{
+#parameters{
 	padding: 20px 15px;
 }
 #alignement_footer{
@@ -157,6 +156,7 @@ body{
 #left_bar{
 	width: 50%;
 	padding-top: 15px;
+	justify-content: flex-start;
 }
 #right_bar{
 	width: 50%;
