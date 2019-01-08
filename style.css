@@ -29,29 +29,71 @@ justify-content: flex-end;
 	margin-top: -10px;
 }
 #center{
-	display: flex;
+	text-align: center;
 	flex-direction: column;
 	justify-content: center;
-	height: 700px;
 }
 #bouton{
 	align-self: center;
-	height: 50px;
-	line-height: 50px;
+    height: 58px;
+    width: 571px;
+    padding-top: 18px;   
+	margin: auto auto;
+}
+#bouton input[type="button"] {
+height: 36px;
+line-height: 27px;
+background-image: -webkit-linear-gradient(top, #F8F8F8, #F1F1F1);
+background-color: #F2F2F2;
+color: #757575;
+font-size: 13px;
+font-weight: bold;
+margin: 11px 4px;
+padding: 0 16px;	
 }
 #googlelogo {
     height: 92px;
     width: 272px;
-    display: flex;
     align-self: center;
 }
 #searchbar {
-		display:flex;
-		align-self: center;
+	display: flex;
+	align-self: center;
+	width: 584px;
+	border-radius: 2px;
+	border: 1px black solid;
+	box-shadow: 0 2px 2px 0 rgba (0, 0, 0, 0.16), 0 0 0 1px rgba (0, 0, 0, 0.08);
+	height: 44px;
+	margin: 0 auto;  
+}
+#outer {
+	flex:1;
+	display: flex;
+	padding: 5px 8px 0 16px;
+}
+#inner {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
+#inner2{
+	display: flex;
+	flex: 0 0 auto;
+}
+#inner2 img {
+    width: 32px;
+    height: 22px;
+    margin-top: 6px;
+}
 
-
-		box-shadow: 2px 1px 3px 2px grey;
-
+#inner input{
+	border: none;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	display: flex;
+	flex: 100%;
+	font-size:20px;
 }
 .footer{
   display:flex;
